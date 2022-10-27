@@ -1,0 +1,47 @@
+/* create database */
+create database customers;
+show databases;
+use customers;
+
+/* create a table for customer */
+create table customer(cid int primary key, cname varchar(20), sid int(10), pname varchar(20), quntity int (100), price int (100));
+
+
+/* add values on customer table */
+insert into customer 
+values(1,ritviz,10,i-pad,200,150000);
+
+insert into customer 
+values(2,liggi,11,buds,300,1000);
+
+insert into customer 
+values(3,sidhhi,12,beauty product,150,50000);
+
+insert into customer 
+values(4,harsh,13,scanner,80,60000);
+
+insert into customer 
+values(5,divyanshi,14,camera,50,40000);
+
+
+
+
+/* create a table for suppllier */
+create table suppllier(sid int primary key, city varchar(20));
+
+
+/* add values on suppllier table */
+insert into suppllier
+values(10,bangkok);
+
+insert into suppllier
+values(11,bharuch);
+
+insert into suppllier
+values(12,pune);
+
+insert into suppllier
+values(13,baroda);
+
+insert into suppllier
+values(14,bangkok);
